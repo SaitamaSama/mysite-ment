@@ -1,0 +1,16 @@
+.viewTabs {
+  display: flex;
+  border-bottom: 2px solid rgba(207, 211, 218, 0.5);
+  align-items: center;
+  padding: 0 32px;
+
+  .separator {
+    height: 30px;
+    width: 2px;
+    background-color: #CFD3DA;
+  }
+
+  .gap {
+    flex-grow: 1;
+  }
+}

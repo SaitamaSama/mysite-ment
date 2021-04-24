@@ -1,0 +1,17 @@
+.lastSync {
+  display: flex;
+  align-items: center;
+
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: rgba(0,0,0,.56);
+  }
+  .label {
+    font-size: 14px;
+    margin-left: 13px;
+    margin-right: 55px;
+  }
+}

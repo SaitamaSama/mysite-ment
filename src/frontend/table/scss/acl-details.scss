@@ -1,0 +1,32 @@
+.aclDetails {
+  margin: 12px 0;
+  display: flex;
+
+  .col {
+    min-width: calc(460px - 110px);
+    padding: 0 55px;
+  }
+
+  .perms {
+    flex-grow: 1;
+
+    .listItem {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  .control {
+    width: calc(400px - 110px);
+    border-right: 2px solid #E0E0E0;
+
+    .radioGroup {
+      .radio {
+        margin: 13px 0;
+        .radioLabel {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

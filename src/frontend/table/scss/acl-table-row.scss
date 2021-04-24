@@ -1,0 +1,20 @@
+.aclTableRow {
+  .bodyCell {
+    padding: 4px;
+    text-align: center;
+
+    .about {
+      margin-top: 4px;
+      font-size: 14px;
+    }
+  }
+  .primary {
+    text-align: left;
+  }
+
+  &.open {
+    .bodyCell {
+      border-bottom: none;
+    }
+  }
+}

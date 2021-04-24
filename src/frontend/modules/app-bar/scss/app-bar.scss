@@ -1,0 +1,22 @@
+.appBar {
+  height: 74px;
+  background: #ffffff;
+  display: flex;
+  padding: 0 58px;
+  align-items: center;
+  margin-bottom: 32px;
+
+  .gap {
+    flex-grow: 1;
+  }
+
+  .avatar {
+    width: 36px;
+    height: 36px;
+  }
+
+  .userName {
+    font-weight: 500;
+    margin: 0 30px 0 17px;
+  }
+}

@@ -1,0 +1,17 @@
+.toolbar {
+  margin-bottom: 27px;
+  display: flex;
+
+  .buttonContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  .space {
+    width: 16px;
+  }
+
+  .iconButton {
+    margin: 0 6px;
+  }
+}

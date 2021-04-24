@@ -1,0 +1,22 @@
+.accessControlTable {
+  margin: 38px 0;
+
+  .navBar {
+    margin-left: 64px;
+    display: flex;
+    align-items: center;
+
+    //.backIcon {
+    //  color: rgba(0, 0, 0, 0.54);
+    //}
+    .department {
+      color: #673AB7;
+      margin: 0 20px 0 6px;
+    }
+  }
+
+  .tableContainer {
+    margin: 10px 100px;
+    width: calc(100% - 200px);
+  }
+}

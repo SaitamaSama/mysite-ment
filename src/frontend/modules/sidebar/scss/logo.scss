@@ -1,0 +1,16 @@
+.logo {
+  height: calc(74px - 2rem);
+  display: flex;
+  background: #ffffff;
+  width: 100%;
+  align-items: center;
+  padding: 1rem;
+
+  .logoImg {
+    width: 40px;
+    height: 40px;
+  }
+  .logoText {
+    margin-left: 23px;
+  }
+}
